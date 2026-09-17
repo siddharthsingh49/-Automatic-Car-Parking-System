@@ -191,15 +191,9 @@ loop():
 ---
 
 ### 📷 Photos & Circuit Diagrams
-Add your own project photos here as you build it — see the "Adding photos" step in the GitHub guide for exact instructions:
 
-```
-![Circuit diagram](images/circuit-diagram.jpg)
-![Hardware setup](images/hardware-setup.jpg)
-![Working demo](images/working-demo.jpg)
-```
+<img width="786" height="585" alt="Screenshot 2026-09-18 012340" src="https://github.com/user-attachments/assets/1bd460a2-4d18-429a-a40c-70f728b6d0f6" />
 
----
 
 ## 📄 License
-This project is open-source — feel free to use and modify it for learning purposes.
+This project is open-source — feel free to use.
