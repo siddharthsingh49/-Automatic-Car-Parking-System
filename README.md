@@ -2,6 +2,10 @@
  Traditional parking management systems rely on manual monitoring, which is slow, labor-intensive, and prone to human error. This project presents an Automatic Car Parking System that addresses these limitations using low-cost embedded hardware. The system is built around an Arduino Uno microcontroller connected to IR sensors at the entry and exit gates and ultrasonic sensors placed at each parking slot. When a vehicle approaches the entry gate, the IR sensor detects its presence, and the controller checks slot availability using data from the ultrasonic sensors. If a free slot exists, the gate opens via a servo motor and the vehicle is allowed in; if the lot is full, the gate remains closed and the LCD display shows an appropriate alert. A similar mechanism operates at the exit, incrementing the free-slot count once a vehicle leaves. The system operates as a simple sense-decide-act loop, functioning like a finite state machine that transitions between idle, detection, decision, and gate-action states. This project demonstrates a practical, scalable application of sensor integration and embedded control, with potential extensions such as RFID-based billing, IoT connectivity, or number-plate recognition for fully automated smart parking.
  # 🚗 Automatic Car Parking System
 
+
+ <img width="596" height="442" alt="Screenshot 2026-09-18 011610" src="https://github.com/user-attachments/assets/faaab329-2e7f-4388-9d18-5171904a5a0e" />
+
+
 An embedded-systems project that automates entry, slot detection, and exit
 in a parking lot using sensors, a microcontroller, and actuators — removing
 the need for a human gatekeeper and reducing search time for drivers.
